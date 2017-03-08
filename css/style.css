@@ -9,11 +9,14 @@ cite {
 }
 
 .toolbar {
-	padding-left: 30%;
-	padding-right: 30%;
+	margin: 0 auto;
+	width: 19%;
 }
 
 .icon {
   display: inline-block;
-  width: 20%;
+}
+
+.icon-img {
+	max-width: 30px;
 }
