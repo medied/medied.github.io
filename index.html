@@ -1,55 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <title>Coach:Student Ratio</title>
+    <title>medied</title>
     <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <div>
-        <center><em><h1>Coach:Students Ratio Tool</h1></em></center>
-        <div id="NDs-data" data-bind="foreach: ndList">
-            <div class="NDs-layout">
-                <h2 data-bind="text: $data.nd"></h2>
-                <div>
-                    <!-- Number of CMs: <span data-bind="text: $data.cms"></span>  -->
-                    <!-- <button data-bind="click: $parent.edit">Edit</button> -->
-                    <p><em>Number of CMs</em></p>
-                    <input data-bind="textInput: $data.cms"/>
-                    <p><em>Current week students</em></p>
-                    <input data-bind="textInput: $data.studentsCurrentWeek"/>
-                    <p><em>Past week students</em></p>
-                    <input data-bind="textInput: $data.studentsPastWeek"/>
-                </div>      
-            </div>
-        </div>
-        <!-- <div class="add-nd">
-            <button data-bind="click: addND">Add a new ND</button>
-        </div> -->
-        <div class="compute-button">
-            <button data-bind="click: addND">Add a new ND</button>
-            <button data-bind="click: compute">Compute me the ratios!</button>
-        </div>
-    </div>
-    <div>
-        <div class="results" data-bind="visible: hiddenUntilCompute">
-            <p>
-                NDs = 1:<span data-bind="text: totalRatio"></span> = <span data-bind="text: totalCMs"></span>:<span data-bind="text: totalCurrentStudents"></span> ( <span data-bind="text: $data.totalPercentChange"></span>% )
-            </p>
-        </div>
-        <div class="results" id="compute-results" data-bind="foreach: ndListComputed">
-            <p>
-                <span data-bind="text: $data.theND"></span> = 1:<span data-bind="text: $data.theRatio"></span>
-                = <span data-bind="text: $data.theCMs"></span>:<span data-bind="text: $data.currentWeek"></span> ( <span data-bind="text: $data.thePercentChange"></span>% )
-
-            </p>
-        </div>
-
-    </div>
-    <script src="js/lib/knockout-3.2.0.js"></script>
-    <script src="js/lib/jquery-2.1.4.min.js"></script>
-    <script src="https://cdn.firebase.com/js/client/2.2.9/firebase.js"></script>
-    <script type="text/javascript" src="https://hiroshi.github.io/knockoutFire/knockoutfire-0.0.5.js"></script>
-    <script src="js/app.js"></script>
-</body>
+  </head>
+  <body>
+    medied
+  </body>
 </html>
