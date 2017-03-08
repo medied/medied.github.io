@@ -23,8 +23,6 @@ cite {
 .toolbar {
 	padding-left: 20%;
 	padding-right: 20%;
-	padding-top: 15%;
-	padding-bottom: 15%;
 }
 
 .img-size {
@@ -33,7 +31,7 @@ cite {
 }
 
 .icon-item {
-	width: 100px;
+	width: 40%;
 	margin: 0 auto;
 }
 
