@@ -1,17 +1,43 @@
-.NDs-layout {
-	display: inline-block;
-	margin-left: 2.5%;
-  	margin-right: 2.5%;
+body {
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-size: 14px;
 }
 
-.compute-button {
-	margin: 0 auto;
-	max-width: 150px;
-  	margin-top: 5%;
+p {
+	text-align: justify;
+	padding-left: 10%;
+	padding-right: 10%;
+
 }
 
-.results {
-	margin: 0 auto;
-  	width: 525px;
-  	margin-top: 4.5%
+cite {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 42px;
 }
+
+.acerca {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 25px;
+}
+
+.toolbar {
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 15%;
+	padding-bottom: 15%;
+}
+
+.img-size {
+	width: 200px;
+	padding-top: 10px;
+}
+
+.icon-item {
+	width: 100px;
+	margin: 0 auto;
+}
+
+/*.ideas {
+	font-family: 'Shadows Into Light', cursive;
+
+}*/
