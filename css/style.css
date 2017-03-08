@@ -3,29 +3,17 @@ body {
     font-size: 14px;
 }
 
-p {
-	text-align: justify;
-	padding-left: 10%;
-	padding-right: 10%;
-
-}
-
 cite {
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 42px;
 }
 
-.acerca {
-	font-family: 'Shadows Into Light', cursive;
-	font-size: 25px;
-}
-
 .toolbar {
-	padding-left: 20%;
-	padding-right: 20%;
+	padding-left: 30%;
+	padding-right: 30%;
 }
 
-.icon-item {
-	width: 40%;
-	margin: 0 auto;
+.icon {
+  display: inline-block;
+  width: 20%;
 }
