@@ -8,9 +8,8 @@ cite {
 	font-size: 42px;
 }
 
-.toolbar {
-	margin: 0 auto;
-	width: 19%;
+.mediabar {
+	text-align: center;
 }
 
 .icon {
