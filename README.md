@@ -1,3 +1,3 @@
 # medied.github.io
-$ whoami 
-medied
+`$ whoami `
+`medied`
